@@ -1,0 +1,1 @@
+Aquí solo se tiene la carpeta persistence que tiene los componentes necesarios para persistir la información que entra y se procesa en el sistema

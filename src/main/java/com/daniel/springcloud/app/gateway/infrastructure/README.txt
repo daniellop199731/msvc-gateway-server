@@ -1,0 +1,1 @@
+Aquí solo se tiene la carpeta adapter, que contiene el como se comunicara el sistema con el exterior, contralodares, bases de datos y demas

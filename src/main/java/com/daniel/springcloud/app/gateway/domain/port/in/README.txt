@@ -1,0 +1,1 @@
+Aquí se tiene la definición de los contratos comportamiento de los casos de uso

@@ -2,7 +2,7 @@ spring:
     cloud:
         gateway:
             server:
-                webmvc:
+                webflux:
                     routes:          
                     - id: msvc-products
                       uri: lb://msvc-products

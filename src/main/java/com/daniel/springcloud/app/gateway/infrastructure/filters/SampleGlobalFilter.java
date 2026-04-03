@@ -24,9 +24,13 @@ public class SampleGlobalFilter implements GlobalFilter, Ordered {
 
         logger.info("ejecutando el filtro antes del request PRE");
 
-        ServerWebExchange mutatedExchange = exchange.mutate()
-            .request(r -> r.headers(h -> h.add("token", "abcdefg")))
-            .build();
+        //Inicializa el ServerWebExchange para obtener info del request
+        ServerWebExchange mutatedExchange = exchange.mutate().build();
+        
+        //Inicializa el ServerWebExchange para modificar info del request
+        /*ServerWebExchange mutatedExchange = exchange.mutate()
+            .request(r -> r.headers(h -> h.add("token3", "abcdefg")))
+            .build();*/
 
         logger.info("token PRE: " + mutatedExchange.getRequest().getHeaders().getFirst("token"));            
 

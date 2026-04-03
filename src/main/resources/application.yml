@@ -10,6 +10,11 @@ spring:
                       - Path=/api/products/**
                       filters:
                       - StripPrefix=2
+                      - name: SampleCookie
+                        args:
+                            message: Hola mi mensaje personalizado para producto
+                            name: user
+                            value: Daniel
                     - id: msvc-itemsv2
                       uri: lb://msvc-itemsv2
                       predicates:

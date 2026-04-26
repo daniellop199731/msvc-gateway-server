@@ -20,4 +20,7 @@ spring:
                       predicates:
                       - Path=/api/items/**
                       filters:
-                      - StripPrefix=2                      
+                      - StripPrefix=2
+                      - AddRequestHeader=token-request, abcdef
+                      - AddResponseHeader=token-response, 123456
+                      - AddRequestParameter=name, Daniel             

@@ -1,1 +1,0 @@
-Aquí solo se tienen las carpetas in y out

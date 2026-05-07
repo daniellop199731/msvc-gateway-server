@@ -1,1 +1,0 @@
-Aquí va la implementación de las interfaces creadas en domain/port/in

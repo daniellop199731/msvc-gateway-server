@@ -1,1 +1,0 @@
-Aquí se tiene la definición de los contrados de acceso a datos
